@@ -1,8 +1,8 @@
 (in-package :cl-user)
-(defpackage foo
+(defpackage my_system
   (:use :cl)
   (:export :hellofoo))
-(in-package :foo)
+(in-package :my_system)
 
 (defun hellofoo ()
   (print "hellow world"))
